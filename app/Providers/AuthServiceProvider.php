@@ -2,36 +2,25 @@
 
 namespace App\Providers;
 
-use App\Link;
-use App\Policies\ChapterPolicy;
-use App\Policies\LinkPolicy;
-use App\Policies\UserPolicy;
-use App\Policies\VideoPolicy;
-use App\User;
-use App\Video;
+// use Illuminate\Support\Facades\Gate;
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
 
 class AuthServiceProvider extends ServiceProvider
 {
     /**
-     * The policy mappings for the application.
+     * The model to policy mappings for the application.
      *
-     * @var array
+     * @var array<class-string, class-string>
      */
     protected $policies = [
-        User::class => UserPolicy::class,
-        Video::class => VideoPolicy::class,
-        Chapter::class => ChapterPolicy::class,
-        Link::class => LinkPolicy::class,
+        // 'App\Models\Model' => 'App\Policies\ModelPolicy',
     ];
 
     /**
      * Register any authentication / authorization services.
-     *
-     * @return void
      */
-    public function boot()
+    public function boot(): void
     {
-        $this->registerPolicies();
+        //
     }
 }
