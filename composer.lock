@@ -2404,7 +2404,7 @@
                     "./vendor/bin/testbench-dusk nova:publish --force"
                 ],
                 "dusk:assets": [
-                    "TAILWIND_MODE=build npm run prod",
+                    "TAILWIND_MODE=build npm run build",
                     "./vendor/bin/testbench-dusk nova:publish --force"
                 ],
                 "dusk:test": [
