@@ -180,16 +180,16 @@
 @endsection
 
 @push('head')
-<link href="{{ mix('css/perfect-scrollbar.css') }}" rel="stylesheet">
+@vite('resources/css/perfect-scrollbar.css')
 @endpush
 
 @push('scripts')
 
 <!-- https://github.com/rosszurowski/fitvids -->
-<script src="{{ mix('/js/fitvids.js') }}"></script>
+@vite('resources/js/fitvids.js')
 
 <!-- https://github.com/mdbootstrap/perfect-scrollbar -->
-<script src="{{ mix('/js/perfect-scrollbar.js') }}"></script>
+@vite('resources/js/perfect-scrollbar.js')
 
 <script type="text/javascript">
 
