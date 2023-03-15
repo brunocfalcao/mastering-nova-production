@@ -468,7 +468,7 @@
 @endsection
 
 @push('scripts')
-<script type="text/javascript" src="{{ mix('js/owl.carousel.js') }}"></script>
+@vite('resources/js/owl.carousel.js')
 
 <!-- jQuery dom init -->
 <script type="text/javascript">

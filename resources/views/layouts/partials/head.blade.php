@@ -28,7 +28,7 @@
 <link href="https://fonts.googleapis.com/css?family=Fira+Code&display=swap" rel="stylesheet">
 
 <!-- Tailwind + Website styles -->
-<link href="{{ mix('css/app.css') }}" rel="stylesheet">
+@vite('resources/css/app.css')
 
 <!-- Extra styles / meta data -->
 @stack('head')

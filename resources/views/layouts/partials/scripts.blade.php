@@ -1,5 +1,5 @@
 <!-- Main app scripts -->
-<script type="text/javascript" src="{{ mix('js/app.js') }}"></script>
+@vite('resources/js/app.js')
 
 <!-- jQuery dom init -->
 <script type="text/javascript">
