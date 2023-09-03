@@ -1,6 +1,6 @@
 /node_modules
 /public/hot
-/public/storage
+/public
 /vendor
 .env
 .env.backup
@@ -9,6 +9,6 @@ Homestead.json
 Homestead.yaml
 npm-debug.log
 yarn-error.log
-storage/framework
-storage/logs
+/storage/framework/*
+/storage/logs/*
 .phpcs.cache
