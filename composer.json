@@ -1,5 +1,5 @@
 {
-    "name": "brunocfalcao/mastering-nova-production",
+    "name": "brunocfalcao/mastering-nova",
     "type": "project",
     "description": "Mastering Nova website",
     "keywords": [
@@ -8,16 +8,7 @@
         "nova",
         "php"
     ],
-    "homepage": "https://github.com/brunocfalcao/helpers",
     "license": "MIT",
-    "authors": [
-        {
-            "name": "Bruno Falcao",
-            "email": "bruno.c.falcao@brunofalcao.me",
-            "homepage": "https://www.brunofalcao.me",
-            "role": "Developer"
-        }
-    ],
     "repositories": [
         {
             "type": "composer",
@@ -25,7 +16,8 @@
         }
     ],
     "require": {
-        "php": "*",
+        "php": "^7.2.5||^8.0",
+        "appstract/nova-horizon": "^2.1",
         "blade-ui-kit/blade-heroicons": "^0.1.0",
         "blade-ui-kit/blade-icons": "^0.4.0",
         "brunocfalcao/blade-feather-icons": "^0.1.1",

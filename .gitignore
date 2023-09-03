@@ -11,4 +11,3 @@ npm-debug.log
 yarn-error.log
 /storage/*
 .phpcs.cache
-packages/*
